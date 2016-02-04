@@ -1,0 +1,14 @@
+---
+# modify bootstrap variables here
+---
+
+/*$navbar-default-bg: #312312;*/
+/*$light-orange: #ff8c00;*/
+/*$navbar-default-color: $light-orange;*/
+
+$icon-font-path: "{{ site.baseurl }}/{{ site.bootstrap-sass }}/assets/fonts/bootstrap/";
+
+// Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint: 992px;
+
+@import "bootstrap";

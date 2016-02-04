@@ -1,0 +1,40 @@
+# Site settings
+title: SAF Site
+
+# https://github.com/benbalter/jekyll-seo-tag#usage
+# define image: on each page
+logo: icons/apple-touch-icon-180x180.png
+twitter:
+  username: ??
+social:
+  type: Organization
+  name: ??
+  links:
+    - https://twitter.com/??
+    - https://instagram.com/??/
+    - https://www.facebook.com/??
+
+google_analytics_id: ??
+
+# Build settings
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+# modify version numbers below when upgrading bootstrap
+# only the assets directory is needed from the bootstrap-sass download
+bootstrap-sass: bootstrap-sass-3.3.5
+sass:
+  sass_dir: /bootstrap-sass-3.3.5/assets/stylesheets
+  style: :compressed
+
+exclude:
+  - vendor
+  - circle.yml
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
