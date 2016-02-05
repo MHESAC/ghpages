@@ -9,28 +9,6 @@ For each website at SAF, clone `mhesac/ghpages` into a new repository using the 
 1. Choose the correct organization as the owner, probably `mhesac`.
 1. Name the repository after the new site, like `www.example.com`.
 
-## Rename `master` branch
-
-In the new repository, replace the `master` branch with `gh-pages` so that Github Project Pages work correctly. And by removing the `master` branch you won't have problems with accidentally pushing to the wrong branch.
-
-1. Clone the new repo:
-```
-> git clone https://github.com/mhesac/www.example.com.git
-```
-1. Rename the master branch:
-```
-> git branch -m master gh-pages
-```
-1. Push the renamed branch back to Github:
-```
-> git push origin gh-pages
-```
-1. On Github, go to the repo's settings and set the `gh-pages` branch as the default.
-1. Delete the master branch:
-```
-> git push origin --delete master
-```
-
 <!-- delete everything from here up once in your new repository -->
 
 # Purpose
