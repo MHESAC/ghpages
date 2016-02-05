@@ -1,6 +1,6 @@
 # Github Pages Starter
 
-Use this repository as a way to get started with a Github Pages web site with a [Bootstrap template](http://safmt.github.io/ghpages/). Once you've created the new repository, edit its README.md to remove this top section and update the repo name in the rest of README.md.
+Use this repository as a way to get started with a Github Pages web site with a [Bootstrap template](http://getbootstrap.com/). Once you've created the new repository, edit its README.md to remove this top section and update the repo name in the rest of README.md.
 
 ## Clone
 
@@ -28,7 +28,7 @@ Where is the domain registered and where is the DNS? The naked domain, `example.
 - [Developer Info](http://www.smartaboutcollege.org/info/)
 - [Sitemap](http://www.smartaboutcollege.org/sitemap.xml) for SEO
 - [robots.txt](http://www.smartaboutcollege.org/robots.txt)
--
+
 # How to Work Locally
 
 * [Install rbenv](https://github.com/rbenv/rbenv#installation)
