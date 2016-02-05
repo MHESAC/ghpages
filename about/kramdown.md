@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Kramdown
-permalink: about/kramdown/
 ---
 
 [Kramdown](http://kramdown.gettalong.org/index.html) has some differences with plain Markdown . By using them you can remain in Markdown instead of switching to HTML.
