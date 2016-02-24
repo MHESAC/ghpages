@@ -21,9 +21,9 @@ Hosted with [Github Pages](https://pages.github.com/) as a [Project Page](https:
 
 # Developer Links
 
-- [Developer Info](http://www.smartaboutcollege.org/info/)
-- [Sitemap](http://www.smartaboutcollege.org/sitemap.xml) for SEO
-- [robots.txt](http://www.smartaboutcollege.org/robots.txt)
+- [Developer Info](http://www.example.com/info/)
+- [Sitemap](http://www.example.com/sitemap.xml) for SEO
+- [robots.txt](http://www.example.com/robots.txt)
 
 # How to Work Locally
 
