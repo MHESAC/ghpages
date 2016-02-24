@@ -50,12 +50,11 @@ Start Jekyll server:
 > rake
 ```
 
-Edit in the host OS. Find the website at http://localhost:4000/
+Edit and view changes at http://localhost:4000/
 
 Commit changes and push to the `gh-pages` branch to deploy to production.
 
 Run tests:
-
 ```
 > rake test
 ```

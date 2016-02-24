@@ -25,6 +25,7 @@ gems:
   - jekyll-seo-tag
 
 markdown: kramdown
+timezone: US/Mountain
 
 # modify version numbers below when upgrading bootstrap
 # only the assets directory is needed from the bootstrap-sass download
