@@ -19,10 +19,6 @@ Why do we have this site? Who is responsible for its content?
 
 Hosted with [Github Pages](https://pages.github.com/) as a [Project Page](https://help.github.com/articles/user-organization-and-project-pages/#project-pages). Domain name is registered at GoDaddy and all DNS is there. DNS consists of two **A** records on `example.com` that point to 192.30.252.153 and 192.30.252.154, and a **CNAME** record for `www.example.com` that points to `safmt.github.io`. GitHub handles the redirect from `example.com` to `www.example.com` so that the site is served at **<www.example.com>** according to [best practices](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/).
 
-# DNS
-
-Where is the domain registered and where is the DNS? The naked domain, `example.com`, is redirected to `www.example.com` according to [best practices](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/). A CNAME record for `www.example.com` points to `safmt.github.io`.
-
 # Developer Links
 
 - [Developer Info](http://www.smartaboutcollege.org/info/)
