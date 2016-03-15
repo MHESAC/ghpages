@@ -12,17 +12,16 @@ For each website at SAF, clone `safmt/ghpages` into a new repository using the [
 <!-- delete everything from here up once in your new repository -->
 
 # Site Name
-{:.no_toc}
 
 Why do we have this site? Who is responsible for its content?
 
 [CI badge if applicable]
 
 ## Table of Contents
-{:.no_toc}
 
-* Will be replaced with the ToC
-{:toc}
+* [Hosting and DNS](#hosting-and-dns)
+* [Developer Links](#developer-links)
+* [How to Work Locally](#how-to-work-locally)
 
 ## Hosting and DNS
 
