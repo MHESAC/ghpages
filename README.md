@@ -19,9 +19,9 @@ Why do we have this site? Who is responsible for its content?
 
 ## Table of Contents
 
-* [Hosting and DNS](#hosting-and-dns)
-* [Developer Links](#developer-links)
-* [How to Work Locally](#how-to-work-locally)
+- [Hosting and DNS](#hosting-and-dns)
+- [Developer Links](#developer-links)
+- [How to Work Locally](#how-to-work-locally)
 
 ## Hosting and DNS
 
