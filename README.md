@@ -43,10 +43,10 @@ Clone the repo:
 > git clone git@github.com:safmt/www.example.com.git
 ```
 
-[Install Jekyll](https://help.github.com/articles/using-jekyll-with-pages/) (first time only):
-```
-> cd www.example.com
-> bundle install
+Install Jekyll:
+```sh
+> cd www.smartaboutcollege.org
+> bundle install # same to update
 ```
 
 Start Jekyll server:
