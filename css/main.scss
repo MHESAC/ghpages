@@ -5,3 +5,9 @@
 .jumbotron {
   margin-top: -20px;
 }
+
+.site-pages {
+  &>li { margin-bottom: 1em; }
+  dl { margin-bottom: 0;}
+  dt { font-weight: normal; }
+}

@@ -21,7 +21,7 @@ task :test => [:build] do
       :check_html => true,
       :assume_extension => true,
       :cache => { :timeframe => '1h' },
-      :file_ignore => []
+      :file_ignore => ["./_site/info.html"]
     }
   ).run
 end

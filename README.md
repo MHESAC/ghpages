@@ -20,16 +20,16 @@ Why do we have this site? Who is responsible for its content?
 ## Table of Contents
 
 - [Hosting and DNS](#hosting-and-dns)
-- [Developer Links](#developer-links)
+- [Site Information](#site-information)
 - [How to Work Locally](#how-to-work-locally)
 
 ## Hosting and DNS
 
 Hosted with [Github Pages](https://pages.github.com/) as a [Project Page](https://help.github.com/articles/user-organization-and-project-pages/#project-pages). Domain name is registered at GoDaddy and all DNS is there. DNS consists of two **A** records on `example.com` that point to 192.30.252.153 and 192.30.252.154, and a **CNAME** record for `www.example.com` that points to `safmt.github.io`. GitHub handles the redirect from `example.com` to `www.example.com` so that the site is served at **<www.example.com>** according to [best practices](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/).
 
-## Developer Links
+## Site Information
 
-- [Developer Info](http://www.example.com/info/)
+- [Site Info](http://www.example.com/info/)
 - [Sitemap](http://www.example.com/sitemap.xml) for SEO
 - [robots.txt](http://www.example.com/robots.txt)
 
@@ -45,7 +45,7 @@ Clone the repo:
 
 Install Jekyll:
 ```sh
-> cd www.smartaboutcollege.org
+> cd www.example.com
 > bundle install # same to update
 ```
 
