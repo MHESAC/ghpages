@@ -4,7 +4,7 @@ Use this repository as a way to get started with a Github Pages web site with a 
 
 ## Clone
 
-For each website at SAF, clone `safmt/ghpages` into a new repository using the [GitHub Importer](https://import.github.com/new/?import_url=https://github.com/safmt/ghpages/):
+For each website at SAF, clone `safmt/ghpages` into a new repository using the [GitHub Importer](https://github.com/new/import):
 
 1. Choose the correct organization as the owner, i.e. `safmt` or `mhesac`.
 1. Name the repository after the new site, like `www.example.com`.
