@@ -15,7 +15,7 @@ For each website at SAF, clone `safmt/ghpages` into a new repository using the [
 
 Why do we have this site? Who is responsible for its content?
 
-[CI badge if applicable]
+[![Circle CI](https://img.shields.io/circleci/project/safmt/www.example.com.svg)](https://circleci.com/gh/safmt/www.example.com)
 
 ## Table of Contents
 
@@ -27,11 +27,14 @@ Why do we have this site? Who is responsible for its content?
 
 Hosted with [Github Pages](https://pages.github.com/) as a [Project Page](https://help.github.com/articles/user-organization-and-project-pages/#project-pages). Domain name is registered at GoDaddy and all DNS is there. DNS consists of two **A** records on `example.com` that point to 192.30.252.153 and 192.30.252.154, and a **CNAME** record for `www.example.com` that points to `safmt.github.io`. GitHub handles the redirect from `example.com` to `www.example.com` so that the site is served at **<www.example.com>** according to [best practices](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/).
 
+**[test.example.com](http://test.example.com)** is hosted by Amazon S3. Test site is built and deployed by CircleCI. A **CNAME** record for `test.example.com` points to `test.example.com.s3-website-us-west-2.amazonaws.com`.
+
 ## Site Information
 
 - [Site Info](http://www.example.com/info/)
 - [Sitemap](http://www.example.com/sitemap.xml) for SEO
 - [robots.txt](http://www.example.com/robots.txt)
+- [CircleCI](https://circleci.com/gh/safmt/www.example.com)
 
 ## How to Work Locally
 
@@ -56,9 +59,11 @@ Start Jekyll server:
 
 Edit and view changes at http://localhost:4000/
 
-Commit changes and push to the `gh-pages` branch to deploy to production.
-
 Run tests:
 ```
 > rake test
 ```
+
+Push to any branch other than `gh-pages` and CircleCI will build and deploy to test.
+
+Push to the `gh-pages` branch to deploy to production.

@@ -17,7 +17,7 @@ social:
     - https://instagram.com/??/
     - https://www.facebook.com/??
 
-google_analytics_id: ??
+# google_analytics_id: ??
 
 # Build settings
 gems:
@@ -35,10 +35,14 @@ sass:
   style: :compressed
 
 exclude:
-  - vendor
+  - .rspec
+  - .ruby-version
   - circle.yml
   - CNAME
   - Gemfile
   - Gemfile.lock
   - Rakefile
   - README.md
+  - script
+  - spec
+  - vendor

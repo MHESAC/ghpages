@@ -2,5 +2,20 @@ machine:
   timezone: America/Denver
 
 test:
+  pre:
+    - bundle exec rake build
   override:
-   - bundle exec rake test
+    - bundle exec rspec -r rspec_junit_formatter --format RspecJunitFormatter -o $CIRCLE_TEST_REPORTS/rspec/junit.xml
+
+deployment:
+  # no prod deploy needed since it's building at github, this is just a placeholder so the test regex is simpler
+  prod:
+    branch: gh-pages
+    commands:
+      - echo 'Already deployed by GitHub'
+  # deploy any branch that is NOT 'gh-pages' to s3
+  test:
+    branch: /.*/
+    commands:
+      - aws s3 sync _site/ s3://test.example.com --delete
+      - ./script/slack-deploy-notification.sh $CIRCLE_BRANCH test.example.com

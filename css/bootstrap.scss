@@ -2,13 +2,17 @@
 # modify bootstrap variables here
 ---
 
-/*$navbar-default-bg: #312312;*/
-/*$light-orange: #ff8c00;*/
-/*$navbar-default-color: $light-orange;*/
+$saf-blue: rgb(50,90,137);
+$saf-cyan: rgb(0,182,227);
+$saf-orange: rgb(255,118,79);
+$saf-green: rgb(182,216,64);
+
+// $brand-primary: $saf-blue;
+// $brand-success: $saf-cyan;
+// $brand-info: ;
+// $brand-warning: ;
+// $brand-danger: ;
 
 $icon-font-path: "{{ site.baseurl }}/{{ site.bootstrap-sass }}/assets/fonts/bootstrap/";
-
-// Point at which the navbar becomes uncollapsed.
-$grid-float-breakpoint: 992px;
 
 @import "bootstrap";

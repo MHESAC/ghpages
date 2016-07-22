@@ -8,6 +8,10 @@
 
 .site-pages {
   &>li { margin-bottom: 1em; }
-  dl { margin-bottom: 0;}
-  dt { font-weight: normal; }
+  dl { margin-bottom: 0;
+	  dt {
+	    margin-top: 0;
+	    font-weight: normal;
+	  }
+	}
 }
