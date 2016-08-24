@@ -64,6 +64,6 @@ Run tests:
 > rake test
 ```
 
-Push to any branch other than `gh-pages` and CircleCI will build and deploy to test.
+Push to any branch other than `master` and CircleCI will build and deploy to test.
 
-Push to the `gh-pages` branch to deploy to production.
+Push to the `master` branch to deploy to production.
