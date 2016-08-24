@@ -15,13 +15,10 @@ For each website at SAF, clone `safmt/ghpages` into a new repository using the [
 
 Why do we have this site? Who is responsible for its content?
 
-[![Circle CI](https://img.shields.io/circleci/project/safmt/www.example.com.svg)](https://circleci.com/gh/safmt/www.example.com)
-
 ## Table of Contents
 
 - [Hosting and DNS](#hosting-and-dns)
-- [Site Information](#site-information)
-- [How to Work Locally](#how-to-work-locally)
+- [Developer Information](#site-information)
 
 ## Hosting and DNS
 
@@ -29,14 +26,14 @@ Hosted with [Github Pages](https://pages.github.com/) as a [Project Page](https:
 
 **[test.example.com](http://test.example.com)** is hosted by Amazon S3. Test site is built and deployed by CircleCI. A **CNAME** record for `test.example.com` points to `test.example.com.s3-website-us-west-2.amazonaws.com`.
 
-## Site Information
+## Developer Information
 
 - [Site Info](http://www.example.com/info/)
-- [Sitemap](http://www.example.com/sitemap.xml) for SEO
-- [robots.txt](http://www.example.com/robots.txt)
-- [CircleCI](https://circleci.com/gh/safmt/www.example.com)
+- [![Circle CI](https://img.shields.io/circleci/projectsafmt/www.example.com.svg)](https://circleci.com/safmt/www.example.com)
+- [Slack](https://safmt.slack.com/messages/ghpages/)
+- [Site Status](http://status.panopta.com/??)
 
-## How to Work Locally
+### How to Work Locally
 
 * [Install rbenv](https://github.com/rbenv/rbenv#installation)
 * [Install ruby-build](https://github.com/rbenv/ruby-build#installation)
