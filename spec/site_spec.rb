@@ -32,6 +32,7 @@ describe 'Web site' do
       {
         :external_only => true,
         :cache => { :timeframe => '1h' },
+        :url_ignore => [ /localhost/ ],
         :file_ignore => [ "_site/info.html" ]
       }
     ).run
