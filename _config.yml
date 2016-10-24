@@ -1,7 +1,5 @@
 # Site settings
 title: SAF Site
-github:
-  url: http://localhost:4000/ghpages
 
 # once you have your site on a domain it's better to get rid of baseurl and quit using it - for simplicity
 # http://ben.balter.com/jekyll-style-guide/config/#baseurl
@@ -30,8 +28,9 @@ sass:
 
 # Build settings
 gems:
-  - jekyll-sitemap
+  - jekyll-github-metadata
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 kramdown:
   input: GFM

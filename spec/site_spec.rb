@@ -18,8 +18,9 @@ describe 'Web site' do
       "_site",
       {
         :disable_external => true,
-        :assume_extension => true,
         :check_favicon => true,
+        :check_opengraph => true,
+        :url_swap => { %r{^http://test.example.com => "" },
         :url_ignore => [/blob/]
       }
     ).run
@@ -32,7 +33,7 @@ describe 'Web site' do
       {
         :external_only => true,
         :cache => { :timeframe => '1h' },
-        :url_ignore => [ /localhost/ ],
+        :url_swap => { %r{^http://test.example.com => "" },
         :file_ignore => [ "_site/info.html" ]
       }
     ).run

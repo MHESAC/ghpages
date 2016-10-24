@@ -2,17 +2,26 @@ require 'rspec/core/rake_task'
 
 task :default => [:serve]
 
-desc "Build site."
-task :build do
-  sh "bundle exec jekyll build"
+namespace :build do
+
+  desc "Build site locally."
+  task :dev do
+    sh "bundle exec jekyll build --config _config.yml,_config.dev.yml"
+  end
+
+  desc "Build site for test server."
+  task :test do
+    sh "bundle exec jekyll build --config _config.yml,_config.test.yml"
+  end
+
 end
 
-desc "Serve site."
+desc "Serve site locally."
 task :serve do
-  sh "bundle exec jekyll serve"
+  sh "bundle exec jekyll serve --config _config.yml,_config.dev.yml"
 end
 
-desc "Test site."
-task :test => [:build] do
+desc "Test site locally."
+task :test => ['build:test'] do
   RSpec::Core::RakeTask.new(:test)
 end
