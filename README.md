@@ -33,7 +33,7 @@ Hosted with [Github Pages](https://pages.github.com/) as a [Project Page](https:
 - [Slack](https://safmt.slack.com/messages/ghpages/)
 - [Site Status](http://status.panopta.com/??)
 
-### How to Work Locally
+### How to Work Locally on Linux/MacOS
 
 * [Install rbenv](https://github.com/rbenv/rbenv#installation)
 * [Install ruby-build](https://github.com/rbenv/ruby-build#installation)
