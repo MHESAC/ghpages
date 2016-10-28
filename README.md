@@ -46,7 +46,7 @@ Clone the repo:
 Install Jekyll:
 ```sh
 > cd www.example.com
-> bundle install # same to update
+> bundle install
 ```
 
 Start Jekyll server:
