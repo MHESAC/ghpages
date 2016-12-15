@@ -29,7 +29,7 @@ Hosted with [Github Pages](https://pages.github.com/) as a [Project Page](https:
 ## Developer Information
 
 - [Site Info](http://www.example.com/info/)
-- [![Circle CI](https://img.shields.io/circleci/project/safmt/www.example.com.svg)](https://circleci.com/safmt/www.example.com)
+- [![CircleCI](https://circleci.com/gh/safmt/www.example.com.svg?style=svg)](https://circleci.com/gh/safmt/www.example.com) (get badge at CircleCI, need a token for private repos)
 - [Slack](https://safmt.slack.com/messages/ghpages/)
 - [Site Status](http://status.panopta.com/??)
 
