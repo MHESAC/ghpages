@@ -6,7 +6,7 @@ namespace :build do
 
   desc "Build site locally."
   task :dev do
-    sh "bundle exec jekyll build --config _config.yml,_config.dev.yml"
+    sh "bundle exec jekyll build"
   end
 
   desc "Build site for test server."
@@ -18,7 +18,7 @@ end
 
 desc "Serve site locally."
 task :serve do
-  sh "bundle exec jekyll serve --config _config.yml,_config.dev.yml"
+  sh "bundle exec jekyll serve"
 end
 
 desc "Test site locally."
